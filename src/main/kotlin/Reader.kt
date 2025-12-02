@@ -2,7 +2,10 @@ package org.example
 
 import java.nio.file.Path
 import kotlin.io.path.readLines
+import kotlin.io.path.readText
 
-fun readInput(path: String): List<String> = Path.of(path).readLines()
+fun readInputLines(path: String): List<String> = Path.of(path).readLines()
+fun readInput(path: String): String = Path.of(path).readText()
 
-fun readDay1() = readInput(System.getenv("DAY_1_INPUT_PATH"))
+fun readDay1() = readInputLines(System.getenv("DAY_1_INPUT_PATH"))
+fun readDay2() = readInput(System.getenv("DAY_2_INPUT_PATH")).trim()
