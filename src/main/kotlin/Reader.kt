@@ -9,3 +9,4 @@ fun readInput(path: String): String = Path.of(path).readText()
 
 fun readDay1() = readInputLines(System.getenv("DAY_1_INPUT_PATH"))
 fun readDay2() = readInput(System.getenv("DAY_2_INPUT_PATH")).trim()
+fun readDay3() = readInputLines(System.getenv("DAY_3_INPUT_PATH"))
