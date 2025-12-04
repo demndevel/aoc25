@@ -7,4 +7,6 @@ fun main() {
     Day2.Part2.solve().let(::println)
     Day3.Part1.solve().let(::println)
     Day3.Part2.solve().let(::println)
+    Day4.Part1.solve().let(::println)
+    Day4.Part2.solve().let(::println)
 }
