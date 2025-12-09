@@ -3,8 +3,6 @@ package org.example
 import kotlin.collections.component1
 import kotlin.collections.component2
 
-private fun Char.isRoll(): Boolean = this == '@'
-
 object Day4 {
     object Part1 {
         fun solve(): Int {
@@ -120,3 +118,5 @@ object Day4 {
         }
     }
 }
+
+private fun Char.isRoll(): Boolean = this == '@'
